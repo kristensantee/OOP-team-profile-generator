@@ -47,11 +47,11 @@ THEN I exit the application, and the HTML is generated
 6. [Questions](#questions)
 
 ## Installation
-This application is access using node index.js. It is not deployed to a webpage. Please see the package.json for all dependencies that may need to be installed locally. A screenshot of the site is shown below: 
+This application is access using node index.js. It is not deployed to a webpage. Please see the package.json for all dependencies that may need to be installed locally. The video walkthrough for this application can be found [here](https://drive.google.com/file/d/1JvIqTLqAbr1oijtwHEc20QmcnoD07pWQ/view).A screenshot of the site is shown below: 
 ![screenshot of deployed site for OOP Team Profile Generator](./Screenshot.png)
 
 ## Usage
-To use this application, initialize the folder's command line application and make sure that all appropriate packages are installed. Using the command "node index.js," a user will be presented with a series of prompts in order to create personnel cards for their web development team. After the team manager inputs their information, the user will be asked to add either an engineer or intern or to finish the team. Once the team is assembled, the user can opt to "Finish the team" which will end the prompt cycle and generate an html file named the team's name and located in the dist folder. The html file can then be displayed in the default browser.
+To use this application, initialize the folder's command line application and make sure that all appropriate packages are installed. Using the command "node index.js," a user will be presented with a series of prompts in order to create personnel cards for their web development team. After the team manager inputs their information, the user will be asked to add either an engineer or intern or to finish the team. Once the team is assembled, the user can opt to "Finish the team" which will end the prompt cycle and generate an html file named the team's name and located in the dist folder. The html file can then be displayed in the default browser and the title of the webpage will also reflect the team name.
 
 ## Licenses
 This project uses the MIT license. More info about licenses can be found [here](https://choosealicense.com/).
