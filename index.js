@@ -30,7 +30,6 @@ const addManager = () => {
         message: "What is the team manager's office number?",
         type: "number"
         },
-        
         {
         name: "teamName",
         message: "What is the name of your team?",
@@ -39,6 +38,7 @@ const addManager = () => {
 
     ]).then(ans=> {
         let manager = new Manager(ans.name, ans.id, ans.email, ans.office);
+        teamName = ans.teamName;
         team.push(manager);
         begin();
     })
@@ -122,7 +122,7 @@ const addIntern = ()=>{
 }
 
 const publish = () => {
-    fs.writeFile(`./dist/${ans.teamName}.html`, generateHTML(team), (err) => {
+    fs.writeFile(`./dist/${teamName}.html`, generateHTML(team), (err) => {
         if (err) {
             throw err
         }
